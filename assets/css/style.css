@@ -1,0 +1,42 @@
+:root {
+    --ink: #0B3C49;
+    --sand: #F6EFE0;
+    --coral: #F26B3A;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    scroll-padding-top: 72px;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: "Bricolage Grotesque", system-ui, sans-serif;
+}
+
+.bg-ink { background-color: var(--ink) !important; }
+.bg-sand { background-color: var(--sand) !important; }
+.text-sand { color: var(--sand) !important; }
+.progress-bar.bg-ink { background-color: var(--ink) !important; }
+
+.py-6 { padding-top: 5rem; padding-bottom: 5rem; }
+
+.hero { padding-top: 8rem; padding-bottom: 5rem; }
+
+.btn-coral {
+    background-color: var(--coral);
+    border-color: var(--coral);
+    color: #fff;
+}
+.btn-coral:hover {
+    background-color: #d9552a;
+    border-color: #d9552a;
+    color: #fff;
+}
+
+.card { border-color: #e3dccb; }
+.card-img-top { background-color: var(--sand); }
+
+a:focus-visible, button:focus-visible, .form-control:focus {
+    outline: 3px solid var(--coral);
+    outline-offset: 2px;
+}
