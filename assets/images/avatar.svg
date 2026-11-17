@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#F6EFE0"/>
+  <circle cx="200" cy="155" r="70" fill="#0B3C49"/>
+  <path d="M60 400c0-90 62-140 140-140s140 50 140 140z" fill="#0B3C49"/>
+  <text x="200" y="175" font-family="Arial, sans-serif" font-size="56" font-weight="700" text-anchor="middle" fill="#F26B3A">AZ</text>
+</svg>
